@@ -1,0 +1,274 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(222, 231, 233);
+    font-family: "Helvetica";
+}
+
+.clear{
+    clear: both;
+}
+
+.wrap_compose{
+    float: left;
+    width: 23%;
+}
+/*"COMPOSE"*/
+.compose{
+    color: #fff;
+    text-align: center;
+    background-color:#1C8EB7;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-style: solid black;
+    border-width: 1px;
+    border-radius: 5px;
+}
+/*FOLDERS*/
+.header{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.header .title{
+    font-size: 15px;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+/*rgb(248, 244, 244);*/
+.border{
+    border-bottom: solid 1px rgb(248, 244, 244);
+}
+
+.wrap_compose .under_title{
+    font-size: 12px;
+}
+
+.wrap_compose .under_title ul{
+    padding-left: 0px;
+}
+
+.wrap_compose ul li{
+    border-bottom: solid 1px rgb(248, 244, 244);
+}
+
+ul li{
+    list-style-type: none;
+    padding:10px;
+    padding-left:15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li i{
+    padding-right: 5px;
+}
+
+.wrap_compose ul li:first-child{
+    padding-top: 5px;
+}
+
+.button1,.button2{
+    float: right;
+    color: #fff;
+    text-align: center;
+    font-size: 5px;
+    width: 10%;
+    border-style: solid 1px;
+    border-radius: 2px;
+    padding: 3px;
+}
+
+.button1{
+    background-color: #1C8EB7;
+}
+
+.button2{
+    background-color: #FE9739;
+}
+
+.wrap_mail{
+    float:right;
+    width: 75%;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 5px;
+    border-top-color:#1C8EB7;
+    border-top-width: 3px;    
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.read_mail{
+    padding: 15px;
+    font-size: 15px;
+}
+
+.read_mail a i{
+    padding-left: 15px;
+    color: rgb(163, 157, 157);
+}
+
+.message_subject{
+    padding: 15px;
+    padding-bottom: 10px;
+}
+
+.from{
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.date{
+    float: right;
+    color: rgba(187, 182, 182, 0.788);
+}
+
+.icon{
+    padding-left: 40%;
+    padding-bottom: 5px;
+}
+
+.icon ul{
+    margin-top: 5px;
+}
+
+.icon ul li{
+    float:left;
+    list-style-position:inside;
+    border: 1px solid rgb(204, 199, 199);
+    background-color: #F4F4F4;
+    border-right: none;
+    line-height: 0px;
+    font-size: 5px;
+}
+
+.icon ul li:first-child{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.icon ul li:nth-child(3){
+    border: 1px solid rgb(204, 199, 199);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.icon ul li:last-child{
+    margin-left: 10px;
+    border: 1px solid rgb(204, 199, 199);
+    border-radius: 5px;
+}
+
+.text{
+    padding: 15px;
+    font-size: 12px;
+}
+
+.text p{
+    line-height: 140%;
+    
+}
+
+.photo{
+    float: left;
+    padding: 10px;
+}
+
+.picture{
+    float:left;
+    margin-right: 20px;
+}
+
+.pdf{
+    float: left;
+    margin-right: 20px;
+}
+
+.pdf .image{
+    width : 170px;
+    height: 100px;
+    text-align: center;
+    padding: 20px 0px;
+    border: solid 1px rgb(248, 244, 244);
+}
+
+.image .far{
+    color: rgb(51, 47, 47);
+}
+
+img{
+    display: block;
+    width: 170px;
+    height: 100px;
+}
+
+.name_document{
+    font-weight: bold;
+    font-size: 10px;
+    color: #666666;
+    background-color: #F4F4F4;
+    padding: 10px;
+}
+
+.kb{
+    padding-top: 5px;
+    color: #c0bcc0;
+    padding-bottom: 5px;
+}
+
+.info{
+}
+
+.right{
+    float: right;
+    color: black;
+    border: 1px solid rgb(228, 220, 220);
+    border-radius: 5px;
+    padding: 4px;
+    background: rgb(247, 245, 245);
+}
+
+.footer{
+    margin-right: 10px;
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.footer .left_button{
+    float: left;
+    padding-left: 15px;
+}
+
+.button ul{
+    padding-left: 0px;
+}
+
+.button ul li{
+    float: left;
+    padding: 0px;
+    padding-right: 5px;
+}
+
+.button_border{
+    background-color: rgba(214, 210, 210, 0.582);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+}
+
+.footer .right_buttons{
+    float: right;
+}
