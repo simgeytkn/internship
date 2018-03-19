@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(222, 231, 233);
+    background-color: #EBF0F4;
     font-family: "Helvetica";
 }
 
@@ -14,37 +14,41 @@ body{
     clear: both;
 }
 
+/*Compose ve Mail Wrapperları olmak 
+üzere iki bölüme ayırdım*/
+
 .wrap_compose{
     float: left;
     width: 23%;
 }
-/*"COMPOSE"*/
+
+/* "compose" */
 .compose{
     color: #fff;
     text-align: center;
-    background-color:#1C8EB7;
+    background-color: #1C8EB7;
+    border-style: 1px solid black;
+    border-radius: 5px;
     padding: 10px;
     margin-bottom: 20px;
-    border-style: solid black;
-    border-width: 1px;
-    border-radius: 5px;
 }
-/*FOLDERS*/
+
+/* Her bloktan sonra border oluşsun
+diye bir border classı yaptım*/
+.border{
+    border-bottom: solid 1px #F4F4F4;
+}
+
+/* Folders And Labels*/
 .header{
     background-color: #fff;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .header .title{
     font-size: 15px;
-    padding: 5px;
-    padding-bottom: 10px;
-}
-
-/*rgb(248, 244, 244);*/
-.border{
-    border-bottom: solid 1px rgb(248, 244, 244);
+    padding: 10px;
 }
 
 .wrap_compose .under_title{
@@ -55,38 +59,46 @@ body{
     padding-left: 0px;
 }
 
+/* border sınıfını index.html'de
+sürekli kullanmak yerine her listenin 
+sonunda kendi ekleyecek*/
+
 .wrap_compose ul li{
-    border-bottom: solid 1px rgb(248, 244, 244);
+    border-bottom: solid 1px #F4F4F4;
 }
 
 ul li{
     list-style-type: none;
-    padding:10px;
-    padding-left:15px;
 }
 
-ul a {
+a{
     text-decoration: none;
     color: black;
 }
 
-ul li i{
-    padding-right: 5px;
+.under_title ul li,
+.icon ul li{
+    padding:10px 15px 10px 15px;
 }
 
 .wrap_compose ul li:first-child{
-    padding-top: 5px;
+    padding-top: 0px;
 }
 
+.under_title .fas,.under_title .far
+{
+    width: 20px;
+}
+
+/*Inbox ve Junk'taki notification'lar*/
 .button1,.button2{
     float: right;
     color: #fff;
     text-align: center;
     font-size: 5px;
-    width: 10%;
-    border-style: solid 1px;
+    width: 7%;
     border-radius: 2px;
-    padding: 3px;
+    padding: 1px;
 }
 
 .button1{
@@ -98,11 +110,11 @@ ul li i{
 }
 
 .wrap_mail{
-    float:right;
+    float: right;
     width: 75%;
     background-color: #fff;
-    border-style: solid;
-    border-width: 1px;
+    border-style: solid;  /*Surayi ayri yazmadigimda yemedi**??*/
+    border-width: 1px;      
     border-color: white;
     border-radius: 5px;
     border-top-color:#1C8EB7;
@@ -111,6 +123,7 @@ ul li i{
     margin-bottom: 15px;
 }
 
+/*BURADA KALDIM DEVAM ET*/
 .read_mail{
     padding: 15px;
     font-size: 15px;
@@ -118,7 +131,7 @@ ul li i{
 
 .read_mail a i{
     padding-left: 15px;
-    color: rgb(163, 157, 157);
+    color: #949FB0;
 }
 
 .message_subject{
@@ -133,12 +146,11 @@ ul li i{
 
 .date{
     float: right;
-    color: rgba(187, 182, 182, 0.788);
+    color: #AE9EB8;
 }
 
 .icon{
-    padding-left: 40%;
-    padding-bottom: 5px;
+    padding: 1px 0px 5px  350px;
 }
 
 .icon ul{
@@ -148,7 +160,7 @@ ul li i{
 .icon ul li{
     float:left;
     list-style-position:inside;
-    border: 1px solid rgb(204, 199, 199);
+    border: 1px solid #DCDCDC;
     background-color: #F4F4F4;
     border-right: none;
     line-height: 0px;
@@ -161,14 +173,14 @@ ul li i{
 }
 
 .icon ul li:nth-child(3){
-    border: 1px solid rgb(204, 199, 199);
+    border: 1px solid #DCDCDC;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 
 .icon ul li:last-child{
     margin-left: 10px;
-    border: 1px solid rgb(204, 199, 199);
+    border: 1px solid #DCDCDC;
     border-radius: 5px;
 }
 
@@ -202,11 +214,11 @@ ul li i{
     height: 100px;
     text-align: center;
     padding: 20px 0px;
-    border: solid 1px rgb(248, 244, 244);
+    border: solid 1px #F4F4F4;
 }
 
 .image .far{
-    color: rgb(51, 47, 47);
+    color: #666666;
 }
 
 img{
@@ -221,6 +233,9 @@ img{
     color: #666666;
     background-color: #F4F4F4;
     padding: 10px;
+    width: 170px; 
+    /*width eklememin sebebi
+    zoom yaptığımda aksi kaymaları önlemek*/
 }
 
 .kb{
@@ -235,10 +250,10 @@ img{
 .right{
     float: right;
     color: black;
-    border: 1px solid rgb(228, 220, 220);
+    border: 1px solid #DCDCDC;
     border-radius: 5px;
     padding: 4px;
-    background: rgb(247, 245, 245);
+    background: #F4F4F4;
 }
 
 .footer{
@@ -263,7 +278,7 @@ img{
 }
 
 .button_border{
-    background-color: rgba(214, 210, 210, 0.582);
+    background-color: #F4F4F4;
     border: none;
     border-radius: 5px;
     padding: 10px 15px 10px 15px;
@@ -272,3 +287,4 @@ img{
 .footer .right_buttons{
     float: right;
 }
+
