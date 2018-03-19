@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/test.css">
+
 </head>
 <body>
 
@@ -156,7 +157,7 @@
 
                 <div class="name_document">
                     <i class="fas fa-camera"></i>
-                    Sep2014-report.pdf
+                    <a href="" style="color: #666666">Sep2014-report.pdf</a>
 
                     <div class="kb">
                         <div class="info">
@@ -176,7 +177,7 @@
                 </div>
                 <div class="name_document">
                     <i class="fas fa-camera"></i>
-                    App Description.docx
+                    <a href="" style="color:#666666">App Description.docx</a>
 
                     <div class="kb">
                         <div class="info">
@@ -192,8 +193,15 @@
 
             <div class="picture">
                 <div class="image">
-                    <img src="style/images/photo3.png">
+                    <img id="myImg" src="style/images/photo3.png">
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption"></div>
+                    </div>
                 </div>
+
                 <div class="name_document">
                     <i class="fas fa-camera"></i>
                     photo1.png
@@ -213,6 +221,7 @@
                 <div class="image">
                     <img src="style/images/photo4.png">
                 </div>
+
                 <div class="name_document">
                     <i class="fas fa-camera"></i>
                     photo2.png
@@ -274,5 +283,6 @@
             </div>
         </div>
     </div>
+    
     <script src="js/test.js"></script>
 </body>
