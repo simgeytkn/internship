@@ -1,0 +1,73 @@
+@media only screen and (min-width: 900px)
+{
+    .header .title{
+        font-size: 22px;
+    }
+
+    .wrap_compose .under_title{
+        font-size: 17px;
+    }
+
+    .button1, .button2{
+        font-size: 15px;
+        width: 10%;
+        padding: 2px;
+    }
+
+    .under_title ul li,
+    .icon ul li{
+        padding: 15px 20px 15px 20px;
+    }
+
+    .wrap_compose{
+        width: 25%;
+    }
+
+    .wrap_mail{
+        width: 73%;
+    }
+
+    .read_mail{
+        font-size: 20px;
+    }
+
+    .message{
+        font-size: 18px;
+    }
+
+    .from{
+        font-size: 13px;
+        padding-top: 5px;
+    }
+
+    .date{
+        font-size: 15px;
+    }
+
+    .text{
+        font-size: 16px;
+    }
+
+    .icon{
+        padding: 1px 0px 5px 450px;
+    }
+
+    *.icon-width{
+        font-size: 1.5em;
+    }
+
+    *.icon-width_2{
+        font-size: 2.0em;
+    }
+    
+    .photo{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .button a{
+        font-size: 15px;
+    }
+
+    
+}
