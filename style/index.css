@@ -262,7 +262,7 @@ img{
 
 .footer .left_button{
     float: left;
-    padding-left: 15px;
+    padding-left: 1em;
 }
 
 .button ul{
@@ -272,7 +272,13 @@ img{
 .button ul li{
     float: left;
     padding: 0px;
-    padding-right: 5px;
+    padding-right: 0.5em;
+}
+
+.button_border .fas,
+.button_border .far
+{
+    width: 1em;
 }
 
 .button_border{
