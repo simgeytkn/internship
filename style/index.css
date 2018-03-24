@@ -27,36 +27,36 @@ body{
     color: #fff;
     text-align: center;
     background-color: #1C8EB7;
-    border-style: 1px solid black;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 20px;
+    border-style: 1em solid black;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    margin-bottom: 1em;
 }
 
 /* Her bloktan sonra border oluşsun
 diye bir border classı yaptım*/
 .border{
-    border-bottom: solid 1px #F4F4F4;
+    border-bottom: solid 0.05em #F4F4F4;
 }
 
 /* Folders And Labels*/
 .header{
     background-color: #fff;
-    border-radius: 5px;
-    margin-top: 20px;
+    border-radius: 0.5em;
+    margin-top: 0.5em;
 }
 
 .header .title{
-    font-size: 15px;
-    padding: 10px;
+    font-size: 1em;
+    padding: 0.5em;
 }
 
 .wrap_compose .under_title{
-    font-size: 12px;
+    font-size: 0.7em;
 }
 
 .wrap_compose .under_title ul{
-    padding-left: 0px;
+    padding-left: 0em;
 }
 
 /* border sınıfını index.html'de
@@ -64,7 +64,7 @@ sürekli kullanmak yerine her listenin
 sonunda kendi ekleyecek*/
 
 .wrap_compose ul li{
-    border-bottom: solid 1px #F4F4F4;
+    border-bottom: solid 0.05em #F4F4F4;
 }
 
 ul li{
@@ -78,16 +78,16 @@ a{
 
 .under_title ul li,
 .icon ul li{
-    padding:10px 15px 10px 15px;
+    padding: 1em 1em;
 }
 
 .wrap_compose ul li:first-child{
-    padding-top: 0px;
+    padding-top: 0em;
 }
 
 .under_title .fas,.under_title .far
 {
-    width: 20px;
+    width: 1.5em;
 }
 
 /*Inbox ve Junk'taki notification'lar*/
@@ -95,10 +95,10 @@ a{
     float: right;
     color: #fff;
     text-align: center;
-    font-size: 5px;
-    width: 7%;
-    border-radius: 2px;
-    padding: 1px;
+    font-size: 1em;
+    width: 10%;
+    border-radius: 0.25em;
+    padding: 0.1em;
 }
 
 .button1{
@@ -114,34 +114,34 @@ a{
     width: 75%;
     background-color: #fff;
     border-style: solid;  /*Surayi ayri yazmadigimda yemedi**??*/
-    border-width: 1px;      
+    border-width: 0.05em;      
     border-color: white;
-    border-radius: 5px;
+    border-radius: 0.5em;
     border-top-color:#1C8EB7;
-    border-top-width: 3px;    
-    padding-bottom: 15px;
-    margin-bottom: 15px;
+    border-top-width: 0.2em;    
+    padding-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 /*BURADA KALDIM DEVAM ET*/
 .read_mail{
-    padding: 15px;
-    font-size: 15px;
+    padding: 1em;
+    font-size: 1em;
 }
 
 .read_mail a i{
-    padding-left: 15px;
+    padding-left: 1em;
     color: #949FB0;
 }
 
 .message_subject{
-    padding: 15px;
-    padding-bottom: 10px;
+    padding: 1em;
+    padding-bottom: 1em;
 }
 
 .from{
-    font-size: 10px;
-    padding-top: 5px;
+    font-size: 0.75em;
+    padding-top: 0.1em;
 }
 
 .date{
@@ -150,63 +150,61 @@ a{
 }
 
 .icon{
-    padding: 1px 0px 5px  350px;
+    padding: 0.01em 0em 0.5em 20em;
 }
 
 .icon ul{
-    margin-top: 5px;
+    margin-top: 0.25em;
 }
 
 .icon ul li{
     float:left;
     list-style-position:inside;
-    border: 1px solid #DCDCDC;
+    border: 0.05em solid #DCDCDC;
     background-color: #F4F4F4;
     border-right: none;
-    line-height: 0px;
-    font-size: 5px;
+    font-size: 0.5em;
 }
 
 .icon ul li:first-child{
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
 }
 
 .icon ul li:nth-child(3){
-    border: 1px solid #DCDCDC;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border: 0.05em solid #DCDCDC;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
 }
 
 .icon ul li:last-child{
-    margin-left: 10px;
-    border: 1px solid #DCDCDC;
-    border-radius: 5px;
+    margin-left: 1em;
+    border: 0.05em solid #DCDCDC;
+    border-radius: 0.5em;
 }
 
 .text{
-    padding: 15px;
-    font-size: 12px;
+    padding: 1em;
+    font-size: 0.75em;
 }
 
 .text p{
     line-height: 140%;
-    
 }
 
 .photo{
     float: left;
-    padding: 10px;
+    padding: 1em;
 }
 
 .picture{
     float:left;
-    margin-right: 20px;
+    margin-right: 2em;
 }
 
 .pdf{
     float: left;
-    margin-right: 20px;
+    margin-right: 2em;
 }
 
 .pdf .image{
